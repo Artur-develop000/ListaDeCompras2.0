@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lista de Compras 2.0</string>
+    <string name="adicionar_itens">Adicionar itens</string>
+    <string name="total_0_00">TOTAL: 0,00</string>
+    <string name="qtd">Qtd</string>
+    <string name="picture">picture</string>
+    <string name="nome_do_Produto">Nome do produto</string>
+    <string name="cadastrar_Produto">Cadastrar produto</string>
+    <string name="Quantidade">Quantidade</string>
+    <string name="Inserir">inserir</string>
+    <string name="cadastrar_produto">Cadastrar produto</string>
+    <string name="nome_do_produto">Nome do produto</string>
+    <string name="quantidade">Quantidade</string>
+    <string name="r_0_00">R$ 0.00</string>
+    <string name="inserir">inserir</string>
+
+
+</resources>

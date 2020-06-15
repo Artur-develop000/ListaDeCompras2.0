@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_produto"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/img_foto_produto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@android:drawable/ic_menu_camera"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <EditText
+    android:id="@+id/txt_produto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/nome_do_produto"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="183dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt_qtd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantidade"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="236dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txt_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/r_0_00"
+        android:inputType="numberDecimal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/btn_inserir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inserir"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="341dp" />
+</android.support.constraint.ConstraintLayout>
